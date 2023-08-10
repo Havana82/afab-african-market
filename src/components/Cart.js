@@ -21,7 +21,7 @@ return (
     {storedCart.map(product=>{
         return(
         <>
-        <Card elevation={5} sx={{ height:'50px', color:'darkcyan', fontSize:'30px', marginBottom:'10px',
+        <Card elevation={5} sx={{ height:'10vh', color:'darkcyan', fontSize:'30px', marginBottom:'10px',
         paddingTop:'5vh',paddingLeft:'15px',paddingRight:'15px', display:'block'}}><p> <Box component='span'>{product.name}</Box>
         <Box component='span' sx={{border:'solid 1px black', fontSize:'25px', marginLeft:'19px',paddingRight:'5px'}}> {product.qty}</Box>&nbsp; 
         <Button  sx={{color:'red', background:'lightblue',borderRadius:'10px', height:'3vh'}}
