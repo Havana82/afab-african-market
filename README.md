@@ -3,11 +3,16 @@
 A description of the application
 A list of dependencies
 Dependencies
-Google Firebase
-Firebase/Core
-Firebase/Database
-Firebase/Storage
-Apple Mapkit
+    @emotion/react
+    @emotion/styled
+    @mui/icons-material
+    @mui/material"
+    @stripe/react-stripe-js
+    @stripe/stripe-js
+    axios
+    react
+    react-dom
+    react-router-dom
 
 
 Features
