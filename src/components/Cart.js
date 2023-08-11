@@ -9,7 +9,7 @@ const Cart = (props) => {
     setStoredCart(cartItems)
         },[storedCart]);
 
-const cartState = props.sum? `Total : ${props.sum}`: "Your Cart is empty"
+const cartState = props.sum? `Total : $${props.sum}`: "Your Cart is empty"
 
 return (
 <Container  sx={{marginTop:'50px',background:'lightgrey'}}>
