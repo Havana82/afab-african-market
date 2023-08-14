@@ -1,7 +1,11 @@
 # afab-african-market
 
-A description of the application
-A list of dependencies
+Summary
+This is an eCommerce app built with django on the backend and React on the front end. 
+The appealing user interface is designed using Material-UI library. Stripe Api is also used to
+model a payment platform for the app. This showcases a complete eCommerce web app with real world standards.
+
+
 Dependencies
     @emotion/react
     @emotion/styled
@@ -16,16 +20,19 @@ Dependencies
 
 
 Features
-Get the current location of the device;
-Get the last known location;
-Get continuous location updates;
-Check if location services are enabled on the device;
-Translate an address to geocoordinates a
+1 Responsive navigation bar and pages for excellent user experience on all devices
+2 Retrieve all products from back-end 
+3 Retrieve products by categories
+4 Search bar to search for products easily
+5 Cart feature to add products to cart and remove products from cart
+6 Cart feature calculates total price based on number of products added and their quantities.
+7 Payment Api(Stripe) to proceed to payment and mimick real word payment feature.
 
 
 
 Instructions for setting up the app
 Installation
 Clone this repository.
-Install the Expo command line utility by running npm install -g expo-cli.
-Install dependencies by running npm install.
+Install dependencies by running - yarn install.
+You may need to install React Stripe.js and Stripe.js by running - yarn install @stripe/react-stripe-js @stripe/stripe-js
+run yarn start to view the app.
