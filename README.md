@@ -31,8 +31,9 @@ Features
 
 
 Instructions for setting up the app
-Installation
 Clone this repository.
 Install dependencies by running - yarn install.
 You may need to install React Stripe.js and Stripe.js by running - yarn install @stripe/react-stripe-js @stripe/stripe-js
+You will also need to have a .env file containing a stripe api key to use the stripe feature. 
+To get your stripe api key, go stripe.com and create a free account.
 run yarn start to view the app.
